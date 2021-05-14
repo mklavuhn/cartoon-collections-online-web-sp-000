@@ -1,13 +1,6 @@
 def roll_call_dwarves(array)
-  if block_given?
-  i = 0 
-  while i < array.length
-    yield(array[i])
-    i += 1 
-  end
+  new_array = []
   
-else nil 
-end 
 end
 
 def summon_captain_planet# code an argument here
