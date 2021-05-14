@@ -1,4 +1,5 @@
 def roll_call_dwarves(array)
+  if block_given?
   i = 0 
   while i < array.length
     yield(array[i])
