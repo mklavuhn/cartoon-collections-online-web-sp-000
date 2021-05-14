@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
     yield(array[i])
     i += 1 
   end
-  array 
+  
 else nil 
 end 
 end
